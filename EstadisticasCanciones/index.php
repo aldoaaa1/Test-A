@@ -62,7 +62,7 @@
           }
         })
       q('btn-reset').addEventListener('click', function(){
-        tonos = [];
+        location.reload();
         })
 
     </script>
