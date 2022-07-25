@@ -1,0 +1,272 @@
+dataA = {
+    "Labores": [
+        {
+            "Titulo": "Registro de caja",
+            "Área": "Admin",
+            "Descripción": "Llevar el control mediante Excel de los cierres por día. Se registra el cierre del día anterior y se revisa que el dinero esté correcto según el cierre.",
+            "Contenido": "fecha, hora, sobre, caja, entradas, salidas, desglose.",
+            "Prioridad": "alta"
+        },
+        {
+            "Titulo": "Base de datos de clientes interesados",
+            "Área": "Admin",
+            "Descripción": "Cada cliente que pregunte por información se le agrega a una lista de difusión en WhatsApp y se añade a los prospectos de Excel.",
+            "Contenido": "Nombre, numero, correo, instrumento, edad.",
+            "Prioridad": "media"
+        },
+        {
+            "Titulo": "Llevar agenda al corriente",
+            "Área": "Admin",
+            "Descripción": "Pagos de Servicios, Mensualidades Alumnos, Clases, etc...",
+            "Contenido": "Agregar siempre al calendario con descripción detallada del evento.",
+            "Prioridad": "alta"
+        },
+        {
+            "Titulo": "Cobro de mensualidades",
+            "Área": "Admin",
+            "Descripción": "Llevar registro de las mensualidades de cada alumno así como la fecha de pago, realizar recibo, entregarlo y archivarlo.",
+            "Contenido": "Fecha, monto, clases pagadas, alumno, fecha del siguiente pago.",
+            "Prioridad": "alta"
+        },
+        {
+            "Titulo": "Buscar nuevos proveedores",
+            "Área": "Admin",
+            "Descripción": "Hacer lista de las cosas que se compran normalmente y buscar proveedores. Objetivo: Misma Calidad pero Menor precio o Igual Precio pero Mayor Calidad.",
+            "Contenido": "Nombre de proveedor, contacto, producto, precio anterior, precio del proveedor, vigencia.",
+            "Prioridad": "baja"
+        },
+        {
+            "Titulo": "Mejora Continua",
+            "Área": "Admin",
+            "Descripción": "Agenda, Páginas Web, Redes Sociales, Recepción, Administración, etc…",
+            "Contenido": "Llevar un Google Keep, donde poner todas las mejoras para la próxima junta.",
+            "Prioridad": "alta"
+        },
+        {
+            "Titulo": "Preparar Junta Semanal",
+            "Área": "Admin",
+            "Descripción": "Organizar papelería e ideas para llevar a cabo la junta.",
+            "Contenido": "Reporte de Entradas, Salidas, Comparación con anteriores, Avance de Alumnos, mejoras, observaciones de la semana.",
+            "Prioridad": "alta"
+        },
+        {
+            "Titulo": "Checklist de entrada y salida",
+            "Área": "Recepción",
+            "Descripción": "Se realiza una lista detallada de las actividades a realizar al inicio y termino de la jornada laboral.",
+            "Contenido": "limpieza, acomodo, preparación para el día siguiente, actividades semanales, etc.",
+            "Prioridad": "alta"
+        },
+        {
+            "Titulo": "Hacer lista y cotizar compras que se requieran",
+            "Área": "Recepción",
+            "Descripción": "Hacer inventario en Excel de los productos que se requieran y abastecerlo cuando se necesite.",
+            "Contenido": "Productos, precio, proveedores actuales (limpieza, higiene, snacks, agua, papelería, etc.)",
+            "Prioridad": "media"
+        },
+        {
+            "Titulo": "Contestar los mensajes de wpp, fb e Instagram",
+            "Área": "Recepción",
+            "Descripción": "Brindar la información o resolver dudas de los mensajes que lleguen a las redes sociales.",
+            "Prioridad": "alta"
+        },
+        {
+            "Titulo": "Notificar al maestro cuando haya llegado el alumno",
+            "Área": "Recepción",
+            "Descripción": "Mantener al tanto a cada maestro de sus clases",
+            "Contenido": "Estar al pendiente de grupos de WhatsApp",
+            "Prioridad": "media"
+        },
+        {
+            "Titulo": "Checklist de Redes y Contacto",
+            "Área": "Recepción",
+            "Descripción": "Realizar tareas de redes y páginas. El checklist completo debe ser cubierto cada semana.",
+            "Contenido": "Reels , tiktoks, fotos, historias, páginas web, etc.",
+            "Prioridad": "alta"
+        },
+        {
+            "Titulo": "Asegurar el material de cada clase",
+            "Área": "Recepción",
+            "Descripción": "Preparar el material que se utilizara en cada clase.",
+            "Contenido": "Hojas, lápices, impresiones, manuales, etc.",
+            "Prioridad": "media"
+        },
+        {
+            "Titulo": "Procurar el ambiente",
+            "Área": "Recepción",
+            "Descripción": "Procurar un ambiente limpio, fresco y agradable para el cliente. No permitir que situaciones personales o incluso laborales afecten la imagen de Capella y sus trabajadores frente al cliente.",
+            "Prioridad": "alta"
+        },
+        {
+            "Titulo": "Recepción del alumno",
+            "Área": "Recepción",
+            "Descripción": "Saludar amablemente \"Hola, como estas?\" ¿List@ para tu clase?, en caso de no estar disponible aún el salón le pedimos esperar un momento en sala.",
+            "Prioridad": "media"
+        },
+        {
+            "Titulo": "Organizar Playlists y Música",
+            "Área": "Recepción",
+            "Descripción": "Se pone música dependiendo de las necesidades del local. (Para escuchar música de alumno, música ambiental, etc…)",
+            "Prioridad": "media"
+        },
+        {
+            "Titulo": "Limpieza e Higiene Personal",
+            "Área": "Recepción",
+            "Descripción": "Mantener siempre el área ordenada y siempre tener una buena imagen ante cualquier cliente que entre a la academia.",
+            "Prioridad": "alta"
+        },
+        {
+            "Titulo": "Confirmar Asistencias",
+            "Área": "Recepción",
+            "Descripción": "Solo en algunos casos, alumnos nuevos, o prospectos de alumnos, trabajo, etc...",
+            "Prioridad": "media"
+        },
+        {
+            "Titulo": "Sacar copias e impresiones",
+            "Área": "Recepción",
+            "Descripción": "Para clientes, para maestros y para administración general. Cobranza y registro de copias.",
+            "Prioridad": "alta"
+        }
+    ],
+    "CheckList_entrada": [
+        {
+            "Titulo": "Encender Luces",
+            "Descripción": "Encender Sala y Recepción (Si es necesario)"
+        },
+        {
+            "Titulo": "Prender Clima (Modo Ahorrar)",
+            "Descripción": "Temperatura estándar 24 grados."
+        },
+        {
+            "Titulo": "Abrir puertas necesarias",
+            "Descripción": "Abrir solo los salones que se ocuparán durante el día para que se enfríen."
+        },
+        {
+            "Titulo": "Musica Ambiental",
+            "Descripción": "Poner música en Alexa, dependiendo de las clases y ambiente."
+        },
+        {
+            "Titulo": "Poner videos en la TV",
+            "Descripción": "Poner videos ambientales en YouTube, o cosas que no distraigan mucho, solo ambiente."
+        },
+        {
+            "Titulo": "Aspirar Alfombras",
+            "Descripción": "Alfombra de sala, de salón y de cuarto exhibidor."
+        },
+        {
+            "Titulo": "Acomodar Exhibición",
+            "Descripción": "Acomodar instrumentos, micrófono, luces, etc..."
+        },
+        {
+            "Titulo": "Limpiar y despejar recepción",
+            "Descripción": "Acomodar cosas y que se vea ordenado y limpio para los clientes. Acomodar folletos y tarjetas."
+        },
+        {
+            "Titulo": "Checar Baño",
+            "Descripción": "Rellenar tanque de agua, revisar rollo y jabón, limpiar espejo, lavabo, trapear y aromatizar."
+        },
+        {
+            "Titulo": "Barrer y Trapear",
+            "Descripción": "Todas las áreas del local"
+        },
+        {
+            "Titulo": "Ordenar salones",
+            "Descripción": "Acomodar, limpiar pizarrones y ordenar todo."
+        },
+        {
+            "Titulo": "Aromatización General",
+            "Descripción": "Checar aceites y aromatizar salones."
+        },
+        {
+            "Titulo": "Preparar Clases",
+            "Descripción": "Preguntar y preparar material para las clases del día actual."
+        },
+        {
+            "Titulo": "Revisar Mensajes Pendientes",
+            "Descripción": "WhatsApp, Instagram, Facebook, Correo, Páginas Web, etc…"
+        }
+    ],
+    "CheckList_salida": [
+        {
+            "Titulo": "Despejar Escritorios y Mesas",
+            "Descripción": "Guardar todo en su lugar y limpiar con trapo y líquido según caso."
+        },
+        {
+            "Titulo": "Ordenar Salones",
+            "Descripción": "Recoger cables, limpiar papeles, acomodar todo en su lugar."
+        },
+        {
+            "Titulo": "Guardar Instrumentos y cables",
+            "Descripción": "Instrumentos en su lugar y quitar cosas del cuarto de Exhibición."
+        },
+        {
+            "Titulo": "Apagar Alexa y Televisión",
+            "Descripción": "Alexa solo se quita musica, Televisión solo se apaga firestick."
+        },
+        {
+            "Titulo": "Limpiar Santuario/Narnia",
+            "Descripción": "Importante que no quede comida y se quede todo en su lugar."
+        },
+        {
+            "Titulo": "Aspirar Alfombras",
+            "Descripción": "Alfombra de sala, de salón y de cuarto exhibidor."
+        },
+        {
+            "Titulo": "Barrer y Trapear",
+            "Descripción": "Todas las áreas del local"
+        },
+        {
+            "Titulo": "Tirar Basura",
+            "Descripción": "(Solo si se puede llenar una bolsa negra) Poner toda la basura en una misma bolsa y sacarla."
+        },
+        {
+            "Titulo": "Ordenar salones",
+            "Descripción": "Acomodar, limpiar pizarrones y ordenar todo."
+        },
+        {
+            "Titulo": "Apagar el Clima",
+            "Descripción": "Apagar y acomodar controles en su lugar"
+        },
+        {
+            "Titulo": "Cerrar todas las puertas",
+            "Descripción": "Todas las puertas de Capella cerradas."
+        },
+        {
+            "Titulo": "Apagar Luces y Bajar Pastilla",
+            "Descripción": "Las luces del cuarto de Exhibición se apagan de las pastillas con el círculo blanco."
+        },
+        {
+            "Titulo": "Asegurar de que quede bien cerrado.",
+            "Descripción": "Si sales cuando se vaya a cerrar el local, apoyar solo en asegurar que este bien cerrado."
+        }
+    ],
+    "CheckList_redes": [
+        {
+            "Titulo": "Crear y publicar mínimo 2 Historias por día",
+            "Descripción": "Grabar clases, o grabaciones, aprovechar siempre para grabar contenido para redes."
+        },
+        {
+            "Titulo": "Programar mínimo 2 Publicaciones por día",
+            "Descripción": "Siempre ir una semana adelantada en las programaciones de publicación en Fb e Ig."
+        },
+        {
+            "Titulo": "Hacer mínimo 2 publicaciones en Tiktok por día",
+            "Descripción": "Crear videos cortos musicales"
+        },
+        {
+            "Titulo": "Checar Adwords",
+            "Descripción": "Monitorear adwords para mejorar eficiencia de publicidad"
+        },
+        {
+            "Titulo": "Crear Reporte de Estadísticas Semanales",
+            "Descripción": "Realizar reporte de Página, Fb, Ig, Tiktok, Correos. Al final de la semana"
+        },
+        {
+            "Titulo": "Idear mensajes de seguimiento",
+            "Descripción": "Diseñar/Bocetar imágenes para correos, wp y fb de promociones y seguimiento de prospectos."
+        },
+        {
+            "Titulo": "Enviar mensajes de difusión",
+            "Descripción": "Programar el envío de la difusión por correo, WhatsApp, y grupos de Facebook."
+        }
+    ]
+}

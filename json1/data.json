@@ -1,0 +1,91 @@
+{
+   "recepcionista":[
+      {
+         "title":"Registro cierre de caja",
+         "description":"Llevar el control mediante excel de los cierres por día, se registra el cierre del día anterior y se asegura que cuadre en ceros",
+         "content":"fecha, día, mes, año, sobre, terminal, caja, efectivo recibido, gastos, revision, total.",
+         "dias":[
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+         ],
+         "fechas":[
+            10,
+            20,
+            30
+         ],
+         "prioridad":0
+      },
+      {
+         "title":"Cierres de caja",
+         "description":"Se registra el desgloce del efectivo que hay en caja, junto con el monto de terminal, efectivo recibido, sobre y gastos",
+         "content":"Desgloce de efectivo por denominación menor a mayor, monto que entro en terminal, efectivo y sobre, gastos realizados durante el día.",
+         "dias":[
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+         ],
+         "fechas":[
+            10,
+            20,
+            30
+         ],
+         "prioridad":0
+      },
+      {
+         "title":"Base de datos de clientes interesados",
+         "description":"Cada cliente que pregunte por informacion se le agrega a una lista de difusión en whatsapp en donde se le envían promos ",
+         "content":"Nombre, numero y clase en la que estaba interesado.",
+         "dias":[
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+         ],
+         "fechas":[
+            10,
+            20,
+            30
+         ],
+         "prioridad":0
+      },
+      {
+         "title":"Nuevo Trabajo",
+         "description":"Nueva Descripción",
+         "content":"Nuevo Contenido",
+         "dias":[
+            1,
+            2,
+            3
+         ],
+         "fechas":[
+            1,
+            15
+         ],
+         "prioridad":0
+      },
+      {
+         "title":"Nuevo Trabajo 2",
+         "description":"Nueva Descripción 2",
+         "content":"Nuevo Contenido 2",
+         "dias":[
+            1,
+            2,
+            3
+         ],
+         "fechas":[
+            1,
+            15
+         ],
+         "prioridad":0
+      }
+   ]
+}
